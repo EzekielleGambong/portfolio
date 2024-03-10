@@ -193,7 +193,7 @@ function App(props) {
                 Skills
               </div>{" "}
               <div className="mt-4 max-w-xl text-xl leading-7 text-center max-md:max-w-full">
-                The skills, tools and technologies I am really good at:
+                The skills, tools and technologies I am really good at: try iwn branch
               </div>
             </div>
           </div>{" "}
