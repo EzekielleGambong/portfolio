@@ -1,5 +1,10 @@
-import profile from './assets/profile.jpg';
-import second from './assets/second.jpg';
+import profile from './assets/photo_2024-05-03_13-35-27.jpg';
+import second from './assets/googleps.jpg';
+import solvento from './assets/cropped-Spi-logo-2048x547.png';
+import kadakareer from './assets/kadakareer.png';
+import makati from './assets/makati-logo.png';
+import v88 from "./assets/village_88_logo.jpeg";
+import tac from './assets/tacpic.jpg';
 import './App.css';
 
 import * as React from "react";
@@ -88,7 +93,7 @@ function App(props) {
                   <img
                     loading="lazy"
                     srcSet={profile}
-                    className="z-10 -mt-10 w-full aspect-[1]"
+                    className="z-10 -mt-10 w-full aspect-[1] object-cover"
                   />
                 </div>
               </div>
@@ -107,7 +112,7 @@ function App(props) {
                 <img
                   loading="lazy"
                   srcSet={second}
-                  className="w-full aspect-[1] max-md:mt-10 max-md:max-w-full"
+                  className="w-full h-auto object-cover max-md:mt-10 max-md:max-w-full"
                 />
               </div>{" "}
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
@@ -344,6 +349,45 @@ function App(props) {
             </div>
           </div>{" "}
           <div className="flex flex-col justify-center p-8 mt-12 max-w-full bg-gray-800 rounded-xl shadow-xl w-[896px] max-md:px-5 max-md:mt-10">
+            <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
+              <img
+                loading="lazy"
+                srcSet={solvento}
+                className="self-start max-w-full aspect-[3.7] w-[102px]"
+              />{" "}
+              <div className="flex flex-col ml-5 w-[77%] max-md:ml-0 max-md:w-full">
+                <div className="grow max-md:mt-10 max-md:max-w-full">
+                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <div className="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
+                      <div className="flex flex-col grow text-base leading-6 text-gray-300 max-md:mt-10">
+                        <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
+                        System Engineer
+                        </div>{" "}
+                        <div className="mt-4">
+                        • Designed and managed virtualized infrastructure for cloud and non-cloud platforms, ensuring scalability, security, and performance.
+                        </div>{" "}
+                        <div className="mt-1 leading-6">
+                        • Conducted technical evaluations and provided IT management with recommendations on cloud technology adoption and capacity planning.
+                        </div>{" "}
+                        <div className="mt-1">
+                        • Implemented and maintained internal enterprise virtualization environments, supporting business-critical applications and enhancing system reliability.
+                        </div>{" "}
+                        <div className="mt-1 leading-6">
+                        • Collaborated with project teams to deliver technical solutions for clients, including system installation, configuration, and troubleshooting.
+                        </div>
+                      </div>
+                    </div>{" "}
+                    <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
+                      <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
+                        Feb 2024 - Present
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="flex flex-col justify-center p-8 mt-12 max-w-full bg-gray-800 rounded-xl shadow-xl w-[896px] max-md:px-5 max-md:mt-10">
             <div className="max-md:max-w-full">
               <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
                 <div className="flex flex-col w-[23%] max-md:ml-0 max-md:w-full">
@@ -359,28 +403,25 @@ function App(props) {
                       <div className="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
                         <div className="flex flex-col grow text-base leading-6 text-gray-300 max-md:mt-10">
                           <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
-                            Sr. Frontend Developer
+                          Freelance Mobile Developer
                           </div>{" "}
                           <div className="mt-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
+                          • Developed and maintained custom mobile applications for clients, ensuring high performance, user-friendly interfaces, and cross-platform compatibility.
                           </div>{" "}
                           <div className="mt-1">
-                            Ut pretium arcu et massa semper, id fringilla leo
-                            semper.
+                          • Collaborated with clients to gather requirements, define project scope, and deliver tailored mobile solutions.
                           </div>{" "}
-                          <div className="mt-1 whitespace-nowrap leading-[150%]">
-                            Sed quis justo ac magna.
+                          <div className="mt-1 leading-6">
+                          • Utilized frameworks like React Native and Flutter to create scalable and responsive mobile apps.
                           </div>{" "}
                           <div className="mt-1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit.
+                          • Integrated third-party APIs, optimized mobile performance, and ensured the security of mobile applications.
                           </div>
                         </div>
                       </div>{" "}
                       <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
                         <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
-                          Nov 2021 - Present
+                          August 2024 - Present
                         </div>
                       </div>
                     </div>
@@ -393,33 +434,32 @@ function App(props) {
             <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/eedf21ec167899d12204210daabf4d042680f09287616d40442b7961656efd30?"
+                srcSet={kadakareer}
                 className="self-start max-w-full aspect-[3.7] w-[102px]"
               />{" "}
-              <div className="max-md:max-w-full">
-                <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-                  <div className="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
-                    <div className="flex flex-col grow text-base leading-6 text-gray-300 max-md:mt-10">
-                      <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
-                        Team Lead
-                      </div>{" "}
-                      <div className="mt-4 whitespace-nowrap">
-                        Sed quis justo ac magna.
-                      </div>{" "}
-                      <div className="mt-1 leading-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      </div>{" "}
-                      <div className="mt-1 whitespace-nowrap">
-                        Sed quis justo ac magna.
-                      </div>{" "}
-                      <div className="mt-1 leading-6">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <div className="flex flex-col ml-5 w-[77%] max-md:ml-0 max-md:w-full">
+                <div className="grow max-md:mt-10 max-md:max-w-full">
+                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <div className="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
+                      <div className="flex flex-col grow text-base leading-6 text-gray-300 max-md:mt-10">
+                        <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
+                        Product Engineer
+                        </div>{" "}
+                        <div className="mt-4">
+                        • Enhancing existing products (Koach Konnector and Kareer Explorer) with new features and updates.
+                        </div>{" "}
+                        <div className="mt-1 leading-6">
+                        • Developed new products to add to our platform
+                        </div>{" "}
+                        <div className="mt-1">
+                        • Utilized frameworks like React, NodeJS, ExpressJS and Firebase to create scalable and responsive web applications.
+                        </div>{" "}
                       </div>
-                    </div>
-                  </div>{" "}
-                  <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
-                    <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
-                      Jul 2017 - Oct 2021
+                    </div>{" "}
+                    <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
+                      <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
+                      Jan 2024 - June 2024
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -430,25 +470,131 @@ function App(props) {
             <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
               <img
                 loading="lazy"
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/14df62c7e077e2a2136958d3dd90352d43377a2cfdf4e7d626bfd6f6b2905e6d?"
-                className="self-start max-w-full aspect-[3.7] w-[102px]"
+                srcSet={v88}
+                className="self-start max-w-full w-[60px]"
               />{" "}
-              <div className="max-md:max-w-full">
-                <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
-                  <div className="flex flex-col w-[70%] max-md:ml-0 max-md:w-full">
-                    <div className="flex flex-col grow max-md:mt-10">
-                      <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
-                        Full Stack Developer
-                      </div>{" "}
-                      <div className="mt-4 text-base leading-6 text-gray-300">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              <div className="flex flex-col ml-5 w-[77%] max-md:ml-0 max-md:w-full">
+                <div className="grow max-md:mt-10 max-md:max-w-full">
+                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <div className="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
+                      <div className="flex flex-col grow text-base leading-6 text-gray-300 max-md:mt-10">
+                        <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
+                        Full Stack Web Development Trainee
+                        </div>{" "}
+                        <div className="mt-4">
+                        • Created various website using Javascript and PHP
+                        </div>{" "}
+                        
+                      </div>
+                    </div>{" "}
+                    <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
+                      <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
+                        Jan 2024 - April 2024
                       </div>
                     </div>
-                  </div>{" "}
-                  <div className="flex flex-col ml-5 w-[30%] max-md:ml-0 max-md:w-full">
-                    <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
-                      Dec 2015 - May 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="flex flex-col justify-center p-8 mt-12 max-w-full bg-gray-800 rounded-xl shadow-xl w-[896px] max-md:px-5 max-md:mt-10">
+            <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
+              <img
+                loading="lazy"
+                srcSet={makati}
+                className="self-start max-w-full w-[60px]"
+              />{" "}
+              <div className="flex flex-col ml-5 w-[77%] max-md:ml-0 max-md:w-full">
+                <div className="grow max-md:mt-10 max-md:max-w-full">
+                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <div className="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
+                      <div className="flex flex-col grow text-base leading-6 text-gray-300 max-md:mt-10">
+                        <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
+                        IT Support OJT
+                        </div>{" "}
+                        <div className="mt-4">
+                        • IT support at Pembo, Makati CIty Barangay Hall
+                        </div>{" "}
+                        <div className="mt-1 leading-6">
+                        • I ensure that the barangay's data is accurate and organized.
+                        </div>{" "}
+                        <div className="mt-1 leading-6">
+                        • I efficiently managed large datasets, adhering to established formats and procedures to maintain data integrity
+                        </div>
+                      </div>
+                    </div>{" "}
+                    <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
+                      <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
+                        August 2023 - December 2023
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="flex flex-col justify-center p-8 mt-12 max-w-full bg-gray-800 rounded-xl shadow-xl w-[896px] max-md:px-5 max-md:mt-10">
+            <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
+              <img
+                loading="lazy"
+                srcSet={makati}
+                className="self-start max-w-full w-[60px]"
+              />{" "}
+              <div className="flex flex-col ml-5 w-[77%] max-md:ml-0 max-md:w-full">
+                <div className="grow max-md:mt-10 max-md:max-w-full">
+                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <div className="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
+                      <div className="flex flex-col grow text-base leading-6 text-gray-300 max-md:mt-10">
+                        <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
+                        IT Support Intern
+                        </div>{" "}
+                        <div className="mt-4">
+                        • IT support at Local Civil Registry Department, Makati City Hall 
+                        </div>{" "}
+                        <div className="mt-1 leading-6">
+                        •  I ensure that the city hall's data regarding the birth certificates of the people in Makati City, dead or alive, is accurate and
+                        organized
+                        </div>{" "}
+                        <div className="mt-1 leading-6">
+                        • I efficiently managed large datasets, adhering to established formats and procedures to maintain data integrity.
+
+                        </div>
+                      </div>
+                    </div>{" "}
+                    <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
+                      <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
+                        Jan 2021 - March 2020
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          <div className="flex flex-col justify-center p-8 mt-12 max-w-full bg-gray-800 rounded-xl shadow-xl w-[896px] max-md:px-5 max-md:mt-10">
+            <div className="flex gap-5 justify-between w-full max-md:flex-wrap max-md:max-w-full">
+              <img
+                loading="lazy"
+                srcSet={tac}
+                className="self-start max-w-full w-[50px]"
+              />{" "}
+              <div className="flex flex-col ml-5 w-[77%] max-md:ml-0 max-md:w-full">
+                <div className="grow max-md:mt-10 max-md:max-w-full">
+                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+                    <div className="flex flex-col w-[72%] max-md:ml-0 max-md:w-full">
+                      <div className="flex flex-col grow text-base leading-6 text-gray-300 max-md:mt-10">
+                        <div className="text-xl font-semibold leading-7 text-gray-50 whitespace-nowrap">
+                        Business owner
+                        </div>{" "}
+                        <div className="mt-4">
+                        • Importing action figure from suppliers in Japan and selling here in Philippines.
+                        </div>{" "}
+                      </div>
+                    </div>{" "}
+                    <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
+                      <div className="text-base leading-6 text-gray-200 whitespace-nowrap max-md:mt-10">
+                        Jan 2021 - Feb 2022
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -483,7 +629,7 @@ function App(props) {
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow items-start self-stretch px-12 py-12 text-sm font-medium leading-5 text-gray-300 rounded-xl max-md:px-5 max-md:max-w-full">
                   <div className="self-stretch text-xl font-semibold leading-7 text-gray-50 text-ellipsis max-md:max-w-full">
-                    Fiskil
+                  Project
                   </div>{" "}
                   <div className="self-stretch mt-6 text-base leading-6 max-md:max-w-full">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -541,7 +687,7 @@ function App(props) {
               <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow items-start self-stretch px-12 py-12 text-sm font-medium leading-5 text-gray-300 rounded-xl max-md:px-5 max-md:max-w-full">
                   <div className="self-stretch text-xl font-semibold leading-7 text-gray-50 text-ellipsis max-md:max-w-full">
-                    Fiskil
+                    Project
                   </div>{" "}
                   <div className="self-stretch mt-6 text-base leading-6 max-md:max-w-full">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -617,7 +763,7 @@ function App(props) {
               <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow items-start self-stretch px-12 py-12 text-sm font-medium leading-5 text-gray-300 rounded-xl max-md:px-5 max-md:max-w-full">
                   <div className="self-stretch text-xl font-semibold leading-7 text-gray-50 text-ellipsis max-md:max-w-full">
-                    Fiskil
+                  Project
                   </div>{" "}
                   <div className="self-stretch mt-6 text-base leading-6 max-md:max-w-full">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -766,7 +912,7 @@ function App(props) {
               </div>{" "}
               <div className="mt-4 max-w-xl text-xl leading-7 text-center max-md:max-w-full">
                 What’s next? Feel free to reach out to me if you're looking for
-                a developer, have a query, or simply want to connect.
+                a developer, support, consulting, have a query, or simply want to connect.
               </div>
             </div>
           </div>
