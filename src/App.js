@@ -984,7 +984,7 @@ function App(props) {
             </a>
             <span className="text-gray-300"> and </span>
             <a
-              href="https://github.com/shahsagarm/sagarshah.dev"
+              href=""
               className="text-gray-300 underline"
               target="_blank"
             >
